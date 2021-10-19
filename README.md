@@ -1,2 +1,2 @@
-# CSS-Task
+# CSS-Tasks
 CSS
