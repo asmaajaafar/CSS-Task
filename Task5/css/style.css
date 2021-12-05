@@ -1,0 +1,24 @@
+div{
+background-color: white;
+width: 350px;
+height: 350px;
+display: inline-block;
+margin: 10px;
+padding: 12px;
+font-size: 20px;
+
+}.a1{
+border: 2px solid red;
+}
+.a2{
+    background-color: rgb(84, 9, 155);
+border-left:4px dashed red;
+border-right: 4px dotted red;
+color: #fff;
+}
+.a3{
+    background-color: rgb(187, 165, 209);
+border-top: 4px dashed red;
+border-bottom: 4px solid red;
+color: #fff;
+}
