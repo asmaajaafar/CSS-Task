@@ -1,0 +1,20 @@
+div{
+    background-color: rgb(209, 209, 207);
+    height: 90px;
+    width: 1100px;
+    padding: 10px;
+    margin: 40px;
+    margin-left: 80px;
+    font-size: 20px;
+}
+div::before{
+    content: "";
+    background-color: crimson;
+   
+   position:absolute;
+   left: 82px;
+   top: 40px;
+   height: 110px;
+   width: 6px;
+   
+}
