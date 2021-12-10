@@ -1,0 +1,25 @@
+div{
+    background-color: rgb(209, 209, 207);
+    height: 100px;
+    padding: 8px;
+    margin: 20px;
+    font-size: 20px;
+}
+div::before{
+    content: "";
+    background-color:  rgb(236, 10, 10);
+   position:absolute;
+   left: 22px;
+   top: 20px;
+   height: 116px;
+   width: 6px;
+   
+   
+}
+span{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(236, 10, 10);
+    font-weight:bold;
+    
+}
