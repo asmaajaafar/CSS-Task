@@ -1,0 +1,23 @@
+div{
+    width: 450px;
+    height: 300px;
+  
+}
+
+.text1{
+    background-color: rgb(220, 95, 236);
+
+    
+}
+.text2{
+    background-color: rgb(100, 4, 112);
+}
+.text3{
+    background-color: rgb(204, 184, 209);
+}
+p{
+    padding: 30px ;
+    font-size: 25px;
+    margin: 10px;
+
+}

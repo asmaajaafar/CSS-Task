@@ -1,0 +1,40 @@
+body{
+    background-image: url(../image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+p {
+    
+   display: block;
+   height: 220px;
+   width: 260px;
+   text-align: center;
+   font-size: 18px;
+   padding: 20px;
+   margin: 5px;
+   
+
+
+}
+.text1{
+    background-image: url(../image/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+
+.text2{
+    background-image: url(../image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.text3{
+    background-image: url(../image/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+

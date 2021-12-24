@@ -1,0 +1,32 @@
+p{
+     background-image: url(../image/download.jpg);
+     width: 400px;
+height: 400px;
+padding: 20px;
+margin: 20px;
+font-size: 22px;
+text-align: center;
+display: inline-block;
+
+
+}
+.a{
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+.b{
+    background-repeat: repeat-y;
+    background-position: right;
+
+}
+.c{
+background-repeat: repeat-x;
+background-position: bottom;
+}
+
+.d{
+    background-repeat: repeat;
+}
