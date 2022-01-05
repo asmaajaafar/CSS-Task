@@ -1,0 +1,93 @@
+body{
+    background: url(../image/photo_2021-12-11_14-13-29.jpg) no-repeat  ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.project{
+    background-color: rgb(73, 6, 82);
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+
+}
+.project .text{
+    text-align: center;
+    font-size: 22px;
+    
+   border: solid 2px rgb(196, 16, 219);
+ text-transform: capitalize;
+ width: 370px;
+box-sizing: border-box;
+color: white;
+padding: 10px;
+margin: 25px 15px;
+position: absolute;
+  
+   
+  
+  
+
+}
+.project span {
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+display: block;
+box-sizing: border-box;
+
+}
+.project span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color:  rgb(196, 16, 219);
+    animation: animy 4s linear infinite;
+}
+
+@keyframes animy {
+    0%{
+     transform: scaleX(0);
+     transform-origin: left;
+    }
+    50%{
+        ransform: scaleX(1);
+    transform-origin: left;
+  
+}
+50.1%{
+    transform: scaleX(1);
+    transform-origin: right;
+}
+100%{
+    transform: scaleX(0);
+    transform-origin: right;
+
+}}
+.project span:nth-child(1){
+    transform: rotate(0deg);
+
+}
+
+.project span:nth-child(2){
+    transform: rotate(90deg);
+
+}
+.project span:nth-child(3){
+    transform: rotate(180deg);
+
+}
+.project span:nth-child(4){
+    transform: rotate(270deg);
+
+}
